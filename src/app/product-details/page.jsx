@@ -1,41 +1,41 @@
 import BottomFooter from "@/components/BottomFooter";
-import BreadcrumbTwo from "@/components/BreadcrumbTwo";
+import Breadcrumb from "@/components/Breadcrumb";
 import FooterOne from "@/components/FooterOne";
-import HeaderOne from "@/components/HeaderOne";
+import Header from "@/components/Header";
 import NewArrivalTwo from "@/components/NewArrivalTwo";
 import NewsletterOne from "@/components/NewsletterOne";
-import ProductDetailsOne from "@/components/ProductDetailsOne";
+import ProductDetailsTwo from "@/components/ProductDetailsTwo";
 import ShippingOne from "@/components/ShippingOne";
 import ColorInit from "@/helper/ColorInit";
 import Preloader from "@/helper/Preloader";
 import ScrollToTopInit from "@/helper/ScrollToTopInit";
 
 export const metadata = {
-  title: "MarketPro - E-commerce Next JS Template",
+  title: "Sugandha Express Yourself through Fragrance",
   description:
-    "MarketPro is a comprehensive and versatile Next JS template designed for e-commerce platforms, specifically tailored for multi vendor marketplaces. With its modern design and extensive feature set, MarketPro provides everything you need to create a robust and user-friendly online marketplace..",
+    "Discover your signature scent at Sugandha. From luxurious perfumes to exotic fragrances, find the perfect aroma that tells your unique story. Premium quality scents at affordable prices. Shop now and express your personality through fragrance.",
 };
 
 const page = () => {
   return (
     <>
       {/* ColorInit */}
-      <ColorInit color={false} />
+      <ColorInit color={true} />
 
       {/* ScrollToTop */}
-      <ScrollToTopInit color='#299E60' />
+      <ScrollToTopInit color='#FA6400' />
 
       {/* Preloader */}
       <Preloader />
 
-      {/* HeaderOne */}
-      <HeaderOne />
+      {/* Header */}
+      <Header category={true} />
 
       {/* Breadcrumb */}
-      <BreadcrumbTwo title={"Product Details"} />
+      <Breadcrumb title={"Product Details"} />
 
-      {/* ProductDetailsOne */}
-      <ProductDetailsOne />
+      {/* ProductDetailsTwo */}
+      <ProductDetailsTwo />
 
       {/* NewArrivalTwo */}
       <NewArrivalTwo />
@@ -46,7 +46,7 @@ const page = () => {
       {/* NewsletterOne */}
       <NewsletterOne />
 
-      {/* FooterTwo */}
+      {/* FooterOne */}
       <FooterOne />
 
       {/* BottomFooter */}

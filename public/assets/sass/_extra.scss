@@ -756,6 +756,11 @@
   }
 }
 
+.top-brand__slider img{
+  aspect-ratio: 5/2;
+  mix-blend-mode: color-burn;
+}
+
 .testimonials {
   .slick-arrow.slick-prev {
     position: absolute;

@@ -1,6 +1,5 @@
 "use client";
 
-import React from "react";
 import dynamic from "next/dynamic";
 const Slider = dynamic(() => import("react-slick"), { ssr: false });
 
@@ -83,7 +82,7 @@ const BrandThree = () => {
     ],
   };
   return (
-    <div className='top-brand three pb-80 overflow-hidden'>
+    <div className='top-brand three overflow-hidden'>
       <div className='container container-lg'>
         <div className='border border-gray-100 p-24 rounded-16'>
           <div className='section-heading mb-24'>
@@ -94,31 +93,31 @@ const BrandThree = () => {
           <div className='top-brand__slider'>
             <Slider {...settings}>
               <div>
-                <img src='assets/images/thumbs/brand-three-img1.png' alt='' />
+                <img src='assets/images/brand/chanel.png' alt='' />
               </div>
               <div>
-                <img src='assets/images/thumbs/brand-three-img2.png' alt='' />
+                <img src='assets/images/brand/creed.png' alt='' />
               </div>
               <div>
-                <img src='assets/images/thumbs/brand-three-img3.png' alt='' />
+                <img src='assets/images/brand/dior.png' alt='' />
               </div>
               <div>
-                <img src='assets/images/thumbs/brand-three-img4.png' alt='' />
+                <img src='assets/images/brand/gucci.png' alt='' />
               </div>
               <div>
-                <img src='assets/images/thumbs/brand-three-img5.png' alt='' />
+                <img src='assets/images/brand/YvesSaintLaurent.png' alt='' />
               </div>
               <div>
-                <img src='assets/images/thumbs/brand-three-img6.png' alt='' />
+                <img src='assets/images/brand/dior.png' alt='' />
               </div>
               <div>
-                <img src='assets/images/thumbs/brand-three-img7.png' alt='' />
+                <img src='assets/images/brand/chanel.png' alt='' />
               </div>
               <div>
-                <img src='assets/images/thumbs/brand-three-img8.png' alt='' />
+                <img src='assets/images/brand/dior.png' alt='' />
               </div>
               <div>
-                <img src='assets/images/thumbs/brand-three-img5.png' alt='' />
+                <img src='assets/images/brand/creed.png' alt='' />
               </div>
             </Slider>
           </div>

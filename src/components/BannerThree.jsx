@@ -67,10 +67,6 @@ const BannerThree = () => {
         className='animation line-shape opacity-75 animation-rotate'
       />
 
-      <h1 className='display-200 text-white opacity-25 position-absolute inset-inline-end-0 inset-block-end-0 mb-0 line-height-73'>
-        Fashion
-      </h1>
-
       <div className='flex-align'>
         <button id='banner-three-prev' className='slick-prev slick-arrow'>
           <i className='ph ph-caret-left'></i>
@@ -97,7 +93,7 @@ const BannerThree = () => {
                         data-wow-duration='2s'
                         data-wow-delay='.5s'
                       >
-                        Style
+                        Scents
                       </span>{" "}
                       Just For You.
                     </h1>
@@ -129,7 +125,7 @@ const BannerThree = () => {
                     data-tilt-scale='1.06'
                   >
                     <img
-                      src='assets/images/thumbs/banner-three-img1.png'
+                      src='assets/images/herosection/heroimage.svg'
                       alt=''
                     />
                   </div>
@@ -183,7 +179,7 @@ const BannerThree = () => {
                     data-tilt-scale='1.06'
                   >
                     <img
-                      src='assets/images/thumbs/banner-three-img2.png'
+                      src='assets/images/herosection/heroimage.svg'
                       alt=''
                     />
                   </div>
@@ -237,7 +233,7 @@ const BannerThree = () => {
                     data-tilt-scale='1.06'
                   >
                     <img
-                      src='assets/images/thumbs/banner-three-img3.png'
+                      src='assets/images/herosection/heroimage.svg'
                       alt=''
                     />
                   </div>

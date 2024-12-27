@@ -1,7 +1,6 @@
 "use client";
-import React, { useEffect, useState } from "react";
 import Link from "next/link";
-import { getCountdown } from "../helper/Countdown";
+import React, { useEffect, useState } from "react";
 
 const BestSellsOne = () => {
   const [timeLeft, setTimeLeft] = useState({
@@ -46,7 +45,7 @@ const BestSellsOne = () => {
                     >
                       <img
                         src='assets/images/thumbs/best-sell1.png'
-                        alt='marketpro'
+                        alt='Sugandha'
                       />
                     </Link>
                     <div className='countdown' id='countdown6'>
@@ -140,7 +139,7 @@ const BestSellsOne = () => {
                     >
                       <img
                         src='assets/images/thumbs/best-sell2.png'
-                        alt='marketpro'
+                        alt='Sugandha'
                       />
                     </Link>
                     <div className='countdown' id='countdown7'>
@@ -234,7 +233,7 @@ const BestSellsOne = () => {
                     >
                       <img
                         src='assets/images/thumbs/best-sell3.png'
-                        alt='marketpro'
+                        alt='Sugandha'
                       />
                     </Link>
                     <div className='countdown' id='countdown8'>
@@ -328,7 +327,7 @@ const BestSellsOne = () => {
                     >
                       <img
                         src='assets/images/thumbs/best-sell4.png'
-                        alt='marketpro'
+                        alt='Sugandha'
                       />
                     </Link>
                     <div className='countdown' id='countdown9'>
@@ -417,13 +416,13 @@ const BestSellsOne = () => {
               <div className=''>
                 <img
                   src='assets/images/bg/special-snacks.png'
-                  alt='marketpro'
+                  alt='Sugandha'
                   className='position-absolute inset-block-start-0 inset-inline-start-0 z-n1 w-100 h-100 cover-img'
                 />
                 <div className='d-xxl-block d-none'>
                   <img
                     src='assets/images/thumbs/special-snacks-img.png'
-                    alt='marketpro'
+                    alt='Sugandha'
                   />
                 </div>
               </div>
