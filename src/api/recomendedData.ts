@@ -38,89 +38,40 @@ export interface RecommendedProduct {
 
 // Recommended Products Data
 export const featuredProduct: FeaturedProduct = {
-  id: "insta360-go-3s",
-  title: "Insta360 GO 3S Action Camera - White",
+  id: "chanel-no-5",
+  title: "Chanel No. 5 Eau de Parfum",
   subtitle: "FROM",
-  price: 430,
-  discountPercentage: 20,
-  image: "assets/images/thumbs/recommended-img.png",
-  backgroundImage: "assets/images/bg/recommended-bg.png",
+  price: 150,
+  discountPercentage: 10,
+  image: "assets/images/thumbs/perfume-img.png",
+  backgroundImage: "assets/images/bg/perfume-bg.png",
 };
 
 export const recommendedProducts: RecommendedProduct[] = [
   {
-    id: "instax-mini-12-1",
-    title: "Instax Mini 12 Instant Film Camera - Green",
-    image: "assets/images/thumbs/product-two-img1.png",
+    id: "chanel-no-5",
+    title: "Chanel No. 5 Eau de Parfum",
+    image: "assets/images/products/armani1.png",
     badge: {
       text: "Best Seller",
       type: "best-seller",
       color: "bg-tertiary-600",
     },
     discount: {
-      percentage: 19,
-      originalPrice: 28.99,
-      currentPrice: 14.99,
+      percentage: 10,
+      originalPrice: 200,
+      currentPrice: 180,
     },
     rating: {
-      score: 4.8,
-      count: 12000,
+      score: 4.9,
+      count: 15000,
     },
     fulfillment: "Fulfilled by Sugandha",
     delivery: {
-      date: "Aug 02",
+      date: "Aug 05",
     },
-    slug: "instax-mini-12-green",
+    slug: "chanel-no-5",
   },
-  {
-    id: "instax-mini-12-2",
-    title: "Instax Mini 12 Instant Film Camera - Green",
-    image: "assets/images/thumbs/product-two-img2.png",
-    badge: {
-      text: "New",
-      type: "new",
-      color: "bg-warning-600",
-    },
-    discount: {
-      percentage: 19,
-      originalPrice: 28.99,
-      currentPrice: 14.99,
-    },
-    rating: {
-      score: 4.8,
-      count: 12000,
-    },
-    fulfillment: "Fulfilled by Sugandha",
-    delivery: {
-      date: "Aug 02",
-    },
-    slug: "instax-mini-12-green-2",
-  },
-  {
-    id: "instax-mini-12-3",
-    title: "Instax Mini 12 Instant Film Camera - Green",
-    image: "assets/images/thumbs/product-two-img3.png",
-    badge: {
-      text: "Sale 50%",
-      type: "sale",
-      color: "bg-danger-600",
-    },
-    discount: {
-      percentage: 19,
-      originalPrice: 28.99,
-      currentPrice: 14.99,
-    },
-    rating: {
-      score: 4.8,
-      count: 12000,
-    },
-    fulfillment: "Fulfilled by Sugandha",
-    delivery: {
-      date: "Aug 02",
-    },
-    slug: "instax-mini-12-green-3",
-  },
-  // ... add more products as needed
 ];
 
 // Slider Settings

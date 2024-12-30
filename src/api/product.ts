@@ -48,14 +48,14 @@ export const productData: Tab[] = [
     label: "On Sale",
     products: [
       {
-        id: "instax-mini-12",
-        title: "Instax Mini 12 Instant Film Camera - Green",
-        slug: "instax-mini-12-camera",
-        category: "Electronics",
+        id: "Creed Aventus EDP 100ml",
+        title: "Creed Aventus EDP 100ml",
+        slug: "Creed-Aventus-EDP-100ml",
+        category: "Perfumes",
         images: [
           {
-            src: "assets/images/thumbs/trending-three-img1.png",
-            alt: "Instax Mini 12 Camera",
+            src: "assets/images/products/creed.png",
+            alt: "Creed Aventus EDP 100ml",
           },
         ],
         rating: {
@@ -71,20 +71,20 @@ export const productData: Tab[] = [
           percentage: 29,
           label: "HOT",
         },
-        tags: ["electronics", "camera", "instant-photo"],
+        tags: ["scents", "perfume", "floral"],
         fulfillment: "Fulfilled by Sugandha",
         status: "in_stock",
-        features: ["Instant printing", "Auto exposure", "Selfie mirror"],
+        features: ["Long-lasting", "Unisex", "Citrus notes"],
       },
       {
-        id: "leather-jacket",
-        title: "Midnight Noir Leather Jacket",
-        slug: "midnight-noir-jacket",
-        category: "Fashion",
+        id: "EMPORIO ARMANI STRONGER WITH YOU AMBER 100ml",
+        title: "EMPORIO ARMANI STRONGER WITH YOU AMBER 100ml",
+        slug: "EMPORIO-ARMANI-STRONGER-WITH-YOU-AMBER-100ml",
+        category: "Perfumes",
         images: [
           {
-            src: "assets/images/thumbs/trending-three-img2.png",
-            alt: "Leather Jacket",
+            src: "assets/images/oroducts/armani.png",
+            alt: "EMPORIO ARMANI STRONGER WITH YOU AMBER 100ml",
           },
         ],
         rating: {
@@ -100,288 +100,79 @@ export const productData: Tab[] = [
           percentage: 29,
           label: "HOT",
         },
-        tags: ["fashion", "jacket", "leather"],
+        tags: ["scents", "perfume", "floral"],
         fulfillment: "Fulfilled by Sugandha",
         status: "in_stock",
-        features: ["Genuine leather", "Multiple pockets", "Quilted lining"],
+        features: ["Long-lasting", "Unisex", "Citrus notes"],
       },
-      // add more data
-      {
-        id: "leather-jacket",
-        title: "Midnight Noir Leather Jacket",
-        slug: "midnight-noir-jacket",
-        category: "Fashion",
-        images: [
-          {
-            src: "assets/images/thumbs/trending-three-img2.png",
-            alt: "Leather Jacket",
-          },
-        ],
-        rating: {
-          score: 4.8,
-          count: 12000,
-        },
-        price: {
-          current: 14.99,
-          original: 28.99,
-          unit: "Qty",
-        },
-        discount: {
-          percentage: 29,
-          label: "HOT",
-        },
-        tags: ["fashion", "jacket", "leather"],
-        fulfillment: "Fulfilled by Sugandha",
-        status: "in_stock",
-        features: ["Genuine leather", "Multiple pockets", "Quilted lining"],
-      },
-      {
-        id: "leather-jacket",
-        title: "Midnight Noir Leather Jacket",
-        slug: "midnight-noir-jacket",
-        category: "Fashion",
-        images: [
-          {
-            src: "assets/images/thumbs/trending-three-img2.png",
-            alt: "Leather Jacket",
-          },
-        ],
-        rating: {
-          score: 4.8,
-          count: 12000,
-        },
-        price: {
-          current: 14.99,
-          original: 28.99,
-          unit: "Qty",
-        },
-        discount: {
-          percentage: 29,
-          label: "HOT",
-        },
-        tags: ["fashion", "jacket", "leather"],
-        fulfillment: "Fulfilled by Sugandha",
-        status: "in_stock",
-        features: ["Genuine leather", "Multiple pockets", "Quilted lining"],
-      },
+     
     ],
   },
   {
     id: "pills-featured",
     label: "Featured Products",
-    products: [
-      // Featured products data structure follows the same pattern
-      {
-        id: "leather-jacket",
-        title: "Midnight Noir Leather Jacket",
-        slug: "midnight-noir-jacket",
-        category: "Fashion",
-        images: [
-          {
-            src: "assets/images/thumbs/trending-three-img2.png",
-            alt: "Leather Jacket",
-          },
-        ],
-        rating: {
-          score: 4.8,
-          count: 12000,
+    products:[{
+      id: "EMPORIO ARMANI STRONGER WITH YOU AMBER 100ml",
+      title: "EMPORIO ARMANI STRONGER WITH YOU AMBER 100ml",
+      slug: "EMPORIO-ARMANI-STRONGER-WITH-YOU-AMBER-100ml",
+      category: "Perfumes",
+      images: [
+        {
+          src: "assets/images/oroducts/armani.png",
+          alt: "EMPORIO ARMANI STRONGER WITH YOU AMBER 100ml",
         },
-        price: {
-          current: 14.99,
-          original: 28.99,
-          unit: "Qty",
-        },
-        discount: {
-          percentage: 29,
-          label: "HOT",
-        },
-        tags: ["fashion", "jacket", "leather"],
-        fulfillment: "Fulfilled by Sugandha",
-        status: "in_stock",
-        features: ["Genuine leather", "Multiple pockets", "Quilted lining"],
+      ],
+      rating: {
+        score: 4.8,
+        count: 12000,
       },
-      {
-        id: "leather-jacket",
-        title: "Midnight Noir Leather Jacket",
-        slug: "midnight-noir-jacket",
-        category: "Fashion",
-        images: [
-          {
-            src: "assets/images/thumbs/trending-three-img2.png",
-            alt: "Leather Jacket",
-          },
-        ],
-        rating: {
-          score: 4.8,
-          count: 12000,
-        },
-        price: {
-          current: 14.99,
-          original: 28.99,
-          unit: "Qty",
-        },
-        discount: {
-          percentage: 29,
-          label: "HOT",
-        },
-        tags: ["fashion", "jacket", "leather"],
-        fulfillment: "Fulfilled by Sugandha",
-        status: "in_stock",
-        features: ["Genuine leather", "Multiple pockets", "Quilted lining"],
+      price: {
+        current: 14.99,
+        original: 28.99,
+        unit: "Qty",
       },
-      {
-        id: "leather-jacket",
-        title: "Midnight Noir Leather Jacket",
-        slug: "midnight-noir-jacket",
-        category: "Fashion",
-        images: [
-          {
-            src: "assets/images/thumbs/trending-three-img2.png",
-            alt: "Leather Jacket",
-          },
-        ],
-        rating: {
-          score: 4.8,
-          count: 12000,
-        },
-        price: {
-          current: 14.99,
-          original: 28.99,
-          unit: "Qty",
-        },
-        discount: {
-          percentage: 29,
-          label: "HOT",
-        },
-        tags: ["fashion", "jacket", "leather"],
-        fulfillment: "Fulfilled by Sugandha",
-        status: "in_stock",
-        features: ["Genuine leather", "Multiple pockets", "Quilted lining"],
+      discount: {
+        percentage: 29,
+        label: "HOT",
       },
-    ],
+      tags: ["scents", "perfume", "floral"],
+      fulfillment: "Fulfilled by Sugandha",
+      status: "in_stock",
+      features: ["Long-lasting", "Unisex", "Citrus notes"],
+    },]
   },
   {
     id: "pills-rated",
     label: "Best Rated",
-    products: [
-      // Best rated products data structure follows the same pattern
-      {
-        id: "leather-jacket",
-        title: "Midnight Noir Leather Jacket",
-        slug: "midnight-noir-jacket",
-        category: "Fashion",
-        images: [
-          {
-            src: "assets/images/thumbs/trending-three-img2.png",
-            alt: "Leather Jacket",
-          },
-        ],
-        rating: {
-          score: 4.8,
-          count: 12000,
+    products: [{
+      id: "EMPORIO ARMANI STRONGER WITH YOU AMBER 100ml",
+      title: "EMPORIO ARMANI STRONGER WITH YOU AMBER 100ml",
+      slug: "EMPORIO-ARMANI-STRONGER-WITH-YOU-AMBER-100ml",
+      category: "Perfumes",
+      images: [
+        {
+          src: "assets/images/oroducts/armani.png",
+          alt: "EMPORIO ARMANI STRONGER WITH YOU AMBER 100ml",
         },
-        price: {
-          current: 14.99,
-          original: 28.99,
-          unit: "Qty",
-        },
-        discount: {
-          percentage: 29,
-          label: "HOT",
-        },
-        tags: ["fashion", "jacket", "leather"],
-        fulfillment: "Fulfilled by Sugandha",
-        status: "in_stock",
-        features: ["Genuine leather", "Multiple pockets", "Quilted lining"],
+      ],
+      rating: {
+        score: 4.8,
+        count: 12000,
       },
-      {
-        id: "leather-jacket",
-        title: "Midnight Noir Leather Jacket",
-        slug: "midnight-noir-jacket",
-        category: "Fashion",
-        images: [
-          {
-            src: "assets/images/thumbs/trending-three-img2.png",
-            alt: "Leather Jacket",
-          },
-        ],
-        rating: {
-          score: 4.8,
-          count: 12000,
-        },
-        price: {
-          current: 14.99,
-          original: 28.99,
-          unit: "Qty",
-        },
-        discount: {
-          percentage: 29,
-          label: "HOT",
-        },
-        tags: ["fashion", "jacket", "leather"],
-        fulfillment: "Fulfilled by Sugandha",
-        status: "in_stock",
-        features: ["Genuine leather", "Multiple pockets", "Quilted lining"],
+      price: {
+        current: 14.99,
+        original: 28.99,
+        unit: "Qty",
       },
-      {
-        id: "leather-jacket",
-        title: "Midnight Noir Leather Jacket",
-        slug: "midnight-noir-jacket",
-        category: "Fashion",
-        images: [
-          {
-            src: "assets/images/thumbs/trending-three-img2.png",
-            alt: "Leather Jacket",
-          },
-        ],
-        rating: {
-          score: 4.8,
-          count: 12000,
-        },
-        price: {
-          current: 14.99,
-          original: 28.99,
-          unit: "Qty",
-        },
-        discount: {
-          percentage: 29,
-          label: "HOT",
-        },
-        tags: ["fashion", "jacket", "leather"],
-        fulfillment: "Fulfilled by Sugandha",
-        status: "in_stock",
-        features: ["Genuine leather", "Multiple pockets", "Quilted lining"],
+      discount: {
+        percentage: 29,
+        label: "HOT",
       },
-      {
-        id: "leather-jacket",
-        title: "Midnight Noir Leather Jacket",
-        slug: "midnight-noir-jacket",
-        category: "Fashion",
-        images: [
-          {
-            src: "assets/images/thumbs/trending-three-img2.png",
-            alt: "Leather Jacket",
-          },
-        ],
-        rating: {
-          score: 4.8,
-          count: 12000,
-        },
-        price: {
-          current: 14.99,
-          original: 28.99,
-          unit: "Qty",
-        },
-        discount: {
-          percentage: 29,
-          label: "HOT",
-        },
-        tags: ["fashion", "jacket", "leather"],
-        fulfillment: "Fulfilled by Sugandha",
-        status: "in_stock",
-        features: ["Genuine leather", "Multiple pockets", "Quilted lining"],
-      },
-    ],
+      tags: ["scents", "perfume", "floral"],
+      fulfillment: "Fulfilled by Sugandha",
+      status: "in_stock",
+      features: ["Long-lasting", "Unisex", "Citrus notes"],
+    },]
   },
 ];
 

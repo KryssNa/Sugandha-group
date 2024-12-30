@@ -31,35 +31,39 @@ export const newArrivalData: CategoryTab[] = [
     promoBanners: [
       {
         id: "promo-1",
-        title: "Get 85% Off",
-        subtitle: "Summer offer",
-        discount: "85%",
-        backgroundImage: "assets/images/thumbs/new-arrival-promo-img1.png",
+        title: "Summer Sale",
+        subtitle: "Up to 50% off on all perfumes",
+        discount: "50%",
+        backgroundImage: "assets/images/banners/summer-sale.png",
         buttonText: "Shop Now",
         position: "left",
+        textColor: "#ffffff",
+        extraText: "Limited time offer",
+        showDiscountCircle: true,
       },
       {
         id: "promo-2",
-        title: "Spring Collection",
-        subtitle: "Get extra discount on first order",
-        discount: "45%",
-        backgroundImage: "assets/images/thumbs/new-arrival-promo-img2.png",
-        buttonText: "Shop Now",
+        title: "New Arrivals",
+        subtitle: "Discover our latest collection",
+        discount: "20%",
+        backgroundImage: "assets/images/banners/new-arrivals.png",
+        buttonText: "Explore",
         position: "right",
-        textColor: "white",
-        showDiscountCircle: true,
+        textColor: "#000000",
+        extraText: "Fresh and exclusive",
+        showDiscountCircle: false,
       },
     ],
     products: [
       {
-        id: "instax-mini-12",
-        title: "Instax Mini 12 Instant Film Camera - Green",
-        slug: "instax-mini-12-camera",
-        category: "Electronics",
+        id: "EMPORIO ARMANI STRONGER WITH YOU AMBER 100ml",
+        title: "EMPORIO ARMANI STRONGER WITH YOU AMBER 100ml",
+        slug: "EMPORIO-ARMANI-STRONGER-WITH-YOU-AMBER-100ml",
+        category: "Perfumes",
         images: [
           {
-            src: "assets/images/thumbs/trending-three-img1.png",
-            alt: "Instax Mini 12 Camera",
+            src: "assets/images/products/armani.png",
+            alt: "EMPORIO ARMANI STRONGER WITH YOU AMBER 100ml",
           },
         ],
         rating: {
@@ -75,20 +79,20 @@ export const newArrivalData: CategoryTab[] = [
           percentage: 29,
           label: "HOT",
         },
-        tags: ["electronics", "camera", "instant-photo"],
+        tags: ["scents", "perfume", "floral"],
         fulfillment: "Fulfilled by Sugandha",
         status: "in_stock",
-        features: [],
+        features: ["Long-lasting", "Unisex", "Citrus notes"],
       },
       {
-        id: "instax-mini-12",
-        title: "Instax Mini 12 Instant Film Camera - Green",
-        slug: "instax-mini-12-camera",
-        category: "Electronics",
+        id: "Creed Aventus EDP 100ml",
+        title: "Creed Aventus EDP 100ml",
+        slug: "Creed-Aventus-EDP-100ml",
+        category: "Perfumes",
         images: [
           {
-            src: "assets/images/thumbs/trending-three-img1.png",
-            alt: "Instax Mini 12 Camera",
+            src: "assets/images/products/creed.png",
+            alt: "Creed Aventus EDP 100ml",
           },
         ],
         rating: {
@@ -104,269 +108,27 @@ export const newArrivalData: CategoryTab[] = [
           percentage: 29,
           label: "HOT",
         },
-        tags: ["electronics", "camera", "instant-photo"],
+        tags: ["scents", "perfume", "floral"],
         fulfillment: "Fulfilled by Sugandha",
         status: "in_stock",
-        features: [],
-      },
-      {
-        id: "instax-mini-12",
-        title: "Instax Mini 12 Instant Film Camera - Green",
-        slug: "instax-mini-12-camera",
-        category: "Electronics",
-        images: [
-          {
-            src: "assets/images/thumbs/trending-three-img1.png",
-            alt: "Instax Mini 12 Camera",
-          },
-        ],
-        rating: {
-          score: 4.8,
-          count: 12000,
-        },
-        price: {
-          current: 14.99,
-          original: 28.99,
-          unit: "Qty",
-        },
-        discount: {
-          percentage: 29,
-          label: "HOT",
-        },
-        tags: ["electronics", "camera", "instant-photo"],
-        fulfillment: "Fulfilled by Sugandha",
-        status: "in_stock",
-        features: [],
-      },
-      {
-        id: "instax-mini-12",
-        title: "Instax Mini 12 Instant Film Camera - Green",
-        slug: "instax-mini-12-camera",
-        category: "Electronics",
-        images: [
-          {
-            src: "assets/images/thumbs/trending-three-img1.png",
-            alt: "Instax Mini 12 Camera",
-          },
-        ],
-        rating: {
-          score: 4.8,
-          count: 12000,
-        },
-        price: {
-          current: 14.99,
-          original: 28.99,
-          unit: "Qty",
-        },
-        discount: {
-          percentage: 29,
-          label: "HOT",
-        },
-        tags: ["electronics", "camera", "instant-photo"],
-        fulfillment: "Fulfilled by Sugandha",
-        status: "in_stock",
-        features: [],
-      },
-      {
-        id: "instax-mini-12",
-        title: "Instax Mini 12 Instant Film Camera - Green",
-        slug: "instax-mini-12-camera",
-        category: "Electronics",
-        images: [
-          {
-            src: "assets/images/thumbs/trending-three-img1.png",
-            alt: "Instax Mini 12 Camera",
-          },
-        ],
-        rating: {
-          score: 4.8,
-          count: 12000,
-        },
-        price: {
-          current: 14.99,
-          original: 28.99,
-          unit: "Qty",
-        },
-        discount: {
-          percentage: 29,
-          label: "HOT",
-        },
-        tags: ["electronics", "camera", "instant-photo"],
-        fulfillment: "Fulfilled by Sugandha",
-        status: "in_stock",
-        features: [],
-      },
-      {
-        id: "instax-mini-12",
-        title: "Instax Mini 12 Instant Film Camera - Green",
-        slug: "instax-mini-12-camera",
-        category: "Electronics",
-        images: [
-          {
-            src: "assets/images/thumbs/trending-three-img1.png",
-            alt: "Instax Mini 12 Camera",
-          },
-        ],
-        rating: {
-          score: 4.8,
-          count: 12000,
-        },
-        price: {
-          current: 14.99,
-          original: 28.99,
-          unit: "Qty",
-        },
-        discount: {
-          percentage: 29,
-          label: "HOT",
-        },
-        tags: ["electronics", "camera", "instant-photo"],
-        fulfillment: "Fulfilled by Sugandha",
-        status: "in_stock",
-        features: [],
-      },
-      {
-        id: "instax-mini-12",
-        title: "Instax Mini 12 Instant Film Camera - Green",
-        slug: "instax-mini-12-camera",
-        category: "Electronics",
-        images: [
-          {
-            src: "assets/images/thumbs/trending-three-img1.png",
-            alt: "Instax Mini 12 Camera",
-          },
-        ],
-        rating: {
-          score: 4.8,
-          count: 12000,
-        },
-        price: {
-          current: 14.99,
-          original: 28.99,
-          unit: "Qty",
-        },
-        discount: {
-          percentage: 29,
-          label: "HOT",
-        },
-        tags: ["electronics", "camera", "instant-photo"],
-        fulfillment: "Fulfilled by Sugandha",
-        status: "in_stock",
-        features: [],
-      },
-      {
-        id: "instax-mini-12",
-        title: "Instax Mini 12 Instant Film Camera - Green",
-        slug: "instax-mini-12-camera",
-        category: "Electronics",
-        images: [
-          {
-            src: "assets/images/thumbs/trending-three-img1.png",
-            alt: "Instax Mini 12 Camera",
-          },
-        ],
-        rating: {
-          score: 4.8,
-          count: 12000,
-        },
-        price: {
-          current: 14.99,
-          original: 28.99,
-          unit: "Qty",
-        },
-        discount: {
-          percentage: 29,
-          label: "HOT",
-        },
-        tags: ["electronics", "camera", "instant-photo"],
-        fulfillment: "Fulfilled by Sugandha",
-        status: "in_stock",
-        features: [],
-      },
-      {
-        id: "instax-mini-12",
-        title: "Instax Mini 12 Instant Film Camera - Green",
-        slug: "instax-mini-12-camera",
-        category: "Electronics",
-        images: [
-          {
-            src: "assets/images/thumbs/trending-three-img1.png",
-            alt: "Instax Mini 12 Camera",
-          },
-        ],
-        rating: {
-          score: 4.8,
-          count: 12000,
-        },
-        price: {
-          current: 14.99,
-          original: 28.99,
-          unit: "Qty",
-        },
-        discount: {
-          percentage: 29,
-          label: "HOT",
-        },
-        tags: ["electronics", "camera", "instant-photo"],
-        fulfillment: "Fulfilled by Sugandha",
-        status: "in_stock",
-        features: [],
-      },
-      // More products...
-    ],
-  },
-  {
-    id: "pills-Jacket",
-    label: "Jacket",
-    category: "jacket",
-    products: [
-      // Jacket category products
-      {
-        id: "instax-mini-12",
-        title: "Instax Mini 12 Instant Film Camera - Green",
-        slug: "instax-mini-12-camera",
-        category: "Electronics",
-        images: [
-          {
-            src: "assets/images/thumbs/trending-three-img1.png",
-            alt: "Instax Mini 12 Camera",
-          },
-        ],
-        rating: {
-          score: 4.8,
-          count: 12000,
-        },
-        price: {
-          current: 14.99,
-          original: 28.99,
-          unit: "Qty",
-        },
-        discount: {
-          percentage: 29,
-          label: "HOT",
-        },
-        tags: ["electronics", "camera", "instant-photo"],
-        fulfillment: "Fulfilled by Sugandha",
-        status: "in_stock",
-        features: [],
+        features: ["Long-lasting", "Unisex", "Citrus notes"],
       },
     ],
   },
   {
-    id: "pills-Shoes",
-    label: "Shoes",
-    category: "shoes",
+    id: "pills-Perfumes",
+    label: "Perfumes",
+    category: "perfumes",
     products: [
-      // Shoes category products
       {
-        id: "instax-mini-12",
-        title: "Instax Mini 12 Instant Film Camera - Green",
-        slug: "instax-mini-12-camera",
-        category: "Electronics",
+        id: "EMPORIO ARMANI STRONGER WITH YOU AMBER 100ml",
+        title: "EMPORIO ARMANI STRONGER WITH YOU AMBER 100ml",
+        slug: "EMPORIO-ARMANI-STRONGER-WITH-YOU-AMBER-100ml",
+        category: "Perfumes",
         images: [
           {
-            src: "assets/images/thumbs/trending-three-img1.png",
-            alt: "Instax Mini 12 Camera",
+            src: "assets/images/products/armani.png",
+            alt: "EMPORIO ARMANI STRONGER WITH YOU AMBER 100ml",
           },
         ],
         rating: {
@@ -382,419 +144,10 @@ export const newArrivalData: CategoryTab[] = [
           percentage: 29,
           label: "HOT",
         },
-        tags: ["electronics", "camera", "instant-photo"],
+        tags: ["scents", "perfume", "floral"],
         fulfillment: "Fulfilled by Sugandha",
         status: "in_stock",
-        features: [],
-      },
-    ],
-  },
-  {
-    id: "pills-Hats",
-    label: "Hats",
-    category: "hats",
-    products: [
-      // Hats category products
-      {
-        id: "instax-mini-12",
-        title: "Instax Mini 12 Instant Film Camera - Green",
-        slug: "instax-mini-12-camera",
-        category: "Electronics",
-        images: [
-          {
-            src: "assets/images/thumbs/trending-three-img1.png",
-            alt: "Instax Mini 12 Camera",
-          },
-        ],
-        rating: {
-          score: 4.8,
-          count: 12000,
-        },
-        price: {
-          current: 14.99,
-          original: 28.99,
-          unit: "Qty",
-        },
-        discount: {
-          percentage: 29,
-          label: "HOT",
-        },
-        tags: ["electronics", "camera", "instant-photo"],
-        fulfillment: "Fulfilled by Sugandha",
-        status: "in_stock",
-        features: [],
-      },
-    ],
-  },
-  {
-    id: "pills-Goggles",
-    label: "Goggles",
-    category: "goggles",
-    products: [
-      // Goggles category products
-      {
-        id: "instax-mini-12",
-        title: "Instax Mini 12 Instant Film Camera - Green",
-        slug: "instax-mini-12-camera",
-        category: "Electronics",
-        images: [
-          {
-            src: "assets/images/thumbs/trending-three-img1.png",
-            alt: "Instax Mini 12 Camera",
-          },
-        ],
-        rating: {
-          score: 4.8,
-          count: 12000,
-        },
-        price: {
-          current: 14.99,
-          original: 28.99,
-          unit: "Qty",
-        },
-        discount: {
-          percentage: 29,
-          label: "HOT",
-        },
-        tags: ["electronics", "camera", "instant-photo"],
-        fulfillment: "Fulfilled by Sugandha",
-        status: "in_stock",
-        features: [],
-      },
-      {
-        id: "instax-mini-12",
-        title: "Instax Mini 12 Instant Film Camera - Green",
-        slug: "instax-mini-12-camera",
-        category: "Electronics",
-        images: [
-          {
-            src: "assets/images/thumbs/trending-three-img1.png",
-            alt: "Instax Mini 12 Camera",
-          },
-        ],
-        rating: {
-          score: 4.8,
-          count: 12000,
-        },
-        price: {
-          current: 14.99,
-          original: 28.99,
-          unit: "Qty",
-        },
-        discount: {
-          percentage: 29,
-          label: "HOT",
-        },
-        tags: ["electronics", "camera", "instant-photo"],
-        fulfillment: "Fulfilled by Sugandha",
-        status: "in_stock",
-        features: [],
-      },
-      {
-        id: "instax-mini-12",
-        title: "Instax Mini 12 Instant Film Camera - Green",
-        slug: "instax-mini-12-camera",
-        category: "Electronics",
-        images: [
-          {
-            src: "assets/images/thumbs/trending-three-img1.png",
-            alt: "Instax Mini 12 Camera",
-          },
-        ],
-        rating: {
-          score: 4.8,
-          count: 12000,
-        },
-        price: {
-          current: 14.99,
-          original: 28.99,
-          unit: "Qty",
-        },
-        discount: {
-          percentage: 29,
-          label: "HOT",
-        },
-        tags: ["electronics", "camera", "instant-photo"],
-        fulfillment: "Fulfilled by Sugandha",
-        status: "in_stock",
-        features: [],
-      },
-      {
-        id: "instax-mini-12",
-        title: "Instax Mini 12 Instant Film Camera - Green",
-        slug: "instax-mini-12-camera",
-        category: "Electronics",
-        images: [
-          {
-            src: "assets/images/thumbs/trending-three-img1.png",
-            alt: "Instax Mini 12 Camera",
-          },
-        ],
-        rating: {
-          score: 4.8,
-          count: 12000,
-        },
-        price: {
-          current: 14.99,
-          original: 28.99,
-          unit: "Qty",
-        },
-        discount: {
-          percentage: 29,
-          label: "HOT",
-        },
-        tags: ["electronics", "camera", "instant-photo"],
-        fulfillment: "Fulfilled by Sugandha",
-        status: "in_stock",
-        features: [],
-      },
-    ],
-  },
-  {
-    id: "pills-Bags",
-    label: "Bags",
-    category: "bags",
-    products: [
-      // Bags category products
-      {
-        id: "instax-mini-12",
-        title: "Instax Mini 12 Instant Film Camera - Green",
-        slug: "instax-mini-12-camera",
-        category: "Electronics",
-        images: [
-          {
-            src: "assets/images/thumbs/trending-three-img1.png",
-            alt: "Instax Mini 12 Camera",
-          },
-        ],
-        rating: {
-          score: 4.8,
-          count: 12000,
-        },
-        price: {
-          current: 14.99,
-          original: 28.99,
-          unit: "Qty",
-        },
-        discount: {
-          percentage: 29,
-          label: "HOT",
-        },
-        tags: ["electronics", "camera", "instant-photo"],
-        fulfillment: "Fulfilled by Sugandha",
-        status: "in_stock",
-        features: [],
-      },
-      {
-        id: "instax-mini-12",
-        title: "Instax Mini 12 Instant Film Camera - Green",
-        slug: "instax-mini-12-camera",
-        category: "Electronics",
-        images: [
-          {
-            src: "assets/images/thumbs/trending-three-img1.png",
-            alt: "Instax Mini 12 Camera",
-          },
-        ],
-        rating: {
-          score: 4.8,
-          count: 12000,
-        },
-        price: {
-          current: 14.99,
-          original: 28.99,
-          unit: "Qty",
-        },
-        discount: {
-          percentage: 29,
-          label: "HOT",
-        },
-        tags: ["electronics", "camera", "instant-photo"],
-        fulfillment: "Fulfilled by Sugandha",
-        status: "in_stock",
-        features: [],
-      },
-      {
-        id: "instax-mini-12",
-        title: "Instax Mini 12 Instant Film Camera - Green",
-        slug: "instax-mini-12-camera",
-        category: "Electronics",
-        images: [
-          {
-            src: "assets/images/thumbs/trending-three-img1.png",
-            alt: "Instax Mini 12 Camera",
-          },
-        ],
-        rating: {
-          score: 4.8,
-          count: 12000,
-        },
-        price: {
-          current: 14.99,
-          original: 28.99,
-          unit: "Qty",
-        },
-        discount: {
-          percentage: 29,
-          label: "HOT",
-        },
-        tags: ["electronics", "camera", "instant-photo"],
-        fulfillment: "Fulfilled by Sugandha",
-        status: "in_stock",
-        features: [],
-      },
-      {
-        id: "instax-mini-12",
-        title: "Instax Mini 12 Instant Film Camera - Green",
-        slug: "instax-mini-12-camera",
-        category: "Electronics",
-        images: [
-          {
-            src: "assets/images/thumbs/trending-three-img1.png",
-            alt: "Instax Mini 12 Camera",
-          },
-        ],
-        rating: {
-          score: 4.8,
-          count: 12000,
-        },
-        price: {
-          current: 14.99,
-          original: 28.99,
-          unit: "Qty",
-        },
-        discount: {
-          percentage: 29,
-          label: "HOT",
-        },
-        tags: ["electronics", "camera", "instant-photo"],
-        fulfillment: "Fulfilled by Sugandha",
-        status: "in_stock",
-        features: [],
-      },
-    ],
-  },
-  {
-    id: "pills-Jeans",
-    label: "Jeans",
-    category: "jeans",
-    products: [
-      // Jeans category products
-      {
-        id: "instax-mini-12",
-        title: "Instax Mini 12 Instant Film Camera - Green",
-        slug: "instax-mini-12-camera",
-        category: "Electronics",
-        images: [
-          {
-            src: "assets/images/thumbs/trending-three-img1.png",
-            alt: "Instax Mini 12 Camera",
-          },
-        ],
-        rating: {
-          score: 4.8,
-          count: 12000,
-        },
-        price: {
-          current: 14.99,
-          original: 28.99,
-          unit: "Qty",
-        },
-        discount: {
-          percentage: 29,
-          label: "HOT",
-        },
-        tags: ["electronics", "camera", "instant-photo"],
-        fulfillment: "Fulfilled by Sugandha",
-        status: "in_stock",
-        features: [],
-      },
-      {
-        id: "instax-mini-12",
-        title: "Instax Mini 12 Instant Film Camera - Green",
-        slug: "instax-mini-12-camera",
-        category: "Electronics",
-        images: [
-          {
-            src: "assets/images/thumbs/trending-three-img1.png",
-            alt: "Instax Mini 12 Camera",
-          },
-        ],
-        rating: {
-          score: 4.8,
-          count: 12000,
-        },
-        price: {
-          current: 14.99,
-          original: 28.99,
-          unit: "Qty",
-        },
-        discount: {
-          percentage: 29,
-          label: "HOT",
-        },
-        tags: ["electronics", "camera", "instant-photo"],
-        fulfillment: "Fulfilled by Sugandha",
-        status: "in_stock",
-        features: [],
-      },
-      {
-        id: "instax-mini-12",
-        title: "Instax Mini 12 Instant Film Camera - Green",
-        slug: "instax-mini-12-camera",
-        category: "Electronics",
-        images: [
-          {
-            src: "assets/images/thumbs/trending-three-img1.png",
-            alt: "Instax Mini 12 Camera",
-          },
-        ],
-        rating: {
-          score: 4.8,
-          count: 12000,
-        },
-        price: {
-          current: 14.99,
-          original: 28.99,
-          unit: "Qty",
-        },
-        discount: {
-          percentage: 29,
-          label: "HOT",
-        },
-        tags: ["electronics", "camera", "instant-photo"],
-        fulfillment: "Fulfilled by Sugandha",
-        status: "in_stock",
-        features: [],
-      },
-      {
-        id: "instax-mini-12",
-        title: "Instax Mini 12 Instant Film Camera - Green",
-        slug: "instax-mini-12-camera",
-        category: "Electronics",
-        images: [
-          {
-            src: "assets/images/thumbs/trending-three-img1.png",
-            alt: "Instax Mini 12 Camera",
-          },
-        ],
-        rating: {
-          score: 4.8,
-          count: 12000,
-        },
-        price: {
-          current: 14.99,
-          original: 28.99,
-          unit: "Qty",
-        },
-        discount: {
-          percentage: 29,
-          label: "HOT",
-        },
-        tags: ["electronics", "camera", "instant-photo"],
-        fulfillment: "Fulfilled by Sugandha",
-        status: "in_stock",
-        features: [],
+        features: ["Long-lasting", "Unisex", "Citrus notes"],
       },
     ],
   },
